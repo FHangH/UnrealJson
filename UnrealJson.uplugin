@@ -18,7 +18,9 @@
 		{
 			"Name": "UnrealMakeJson",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": ["Win64", "Mac", "Linux", "TVOS", "IOS", "Android", "LinuxArm64", "VisionOS"],
+			"PlatformDenyList": []
 		},
 		{
 			"Name": "UnrealReadJson",
@@ -27,8 +29,10 @@
 		},
 		{
 			"Name": "UnrealMakeJsonEditor",
-			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Mac", "Linux", "TVOS", "IOS", "Android", "LinuxArm64", "VisionOS"],
+			"PlatformDenyList": []
 		},
 		{
 			"Name": "StructJsonConverter",

@@ -10,6 +10,10 @@ public class UnrealMakeJsonEditor : ModuleRules
             new string[]
             {
                 "Core",
+                "UnrealEd",
+                "BlueprintGraph",
+                "KismetCompiler",
+                "UnrealMakeJson"
             }
         );
 
