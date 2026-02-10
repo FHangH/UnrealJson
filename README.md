@@ -2,6 +2,24 @@
 
 原插件[UnrealReadJson](https://github.com/FHangH/UnrealReadJson) 升级版，在其基础上集合了更多的功能，并修复了原插件的一些问题。
 
+```asm
+├─FanghLogger
+│  ├─Private
+│  └─Public
+├─StructJsonConverter
+│  ├─Private
+│  └─Public
+├─UnrealMakeJson
+│  ├─Private
+│  └─Public
+├─UnrealMakeJsonEditor
+│  ├─Private
+│  └─Public
+└─UnrealReadJson
+├─Private
+└─Public
+```
+
 ### 插件模块
 - [FanghLogger] 插件内容日志模块，也可以在别的项目中通用
 - [StructJsonConverter]
